@@ -1,0 +1,28 @@
+{
+  "name": "didactic-dollop",
+  "version": "1.0.0",
+  "description": "Wiki Page Demo",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bsmsnd/didactic-dollop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bsmsnd/didactic-dollop/issues"
+  },
+  "homepage": "https://github.com/bsmsnd/didactic-dollop#readme",
+  "devDependencies": {
+    "vuepress": "^1.9.8",
+    "vuepress-plugin-mathjax": "^1.2.8"
+  }
+}
